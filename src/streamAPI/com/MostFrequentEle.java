@@ -14,5 +14,4 @@ public class MostFrequentEle {
 		System.out.println("Group element by length: "+l.stream().sorted((a,b)->b.length()-a.length()).findFirst());
 		System.out.println(""+l.stream().map(i->i).collect(Collectors.joining(",")));
 	}
-
 }
